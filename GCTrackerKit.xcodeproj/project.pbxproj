@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		551057C825008EA500576E5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 551057C725008EA500576E5E /* AppDelegate.m */; };
+		551057D125008EA500576E5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 551057CF25008EA500576E5E /* Main.storyboard */; };
+		551057D325008EA600576E5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 551057D225008EA600576E5E /* Assets.xcassets */; };
+		551057D625008EA600576E5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 551057D425008EA600576E5E /* LaunchScreen.storyboard */; };
+		551057D925008EA600576E5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 551057D825008EA600576E5E /* main.m */; };
+		551057F025009B7C00576E5E /* GCTrackerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 551057EF25009B7C00576E5E /* GCTrackerTool.m */; };
+		551057FC2500D0D200576E5E /* UIControl+Tracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 551057FB2500D0D200576E5E /* UIControl+Tracker.m */; };
+		551057FF2500D32B00576E5E /* UIGestureRecognizer+Tracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 551057FE2500D32B00576E5E /* UIGestureRecognizer+Tracker.m */; };
+		551058022500D3D300576E5E /* UIGestureRecognizer+MethodName.m in Sources */ = {isa = PBXBuildFile; fileRef = 551058012500D3D300576E5E /* UIGestureRecognizer+MethodName.m */; };
+		551058052500D59400576E5E /* UIViewController+Tracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 551058042500D59400576E5E /* UIViewController+Tracker.m */; };
+		551058082500D6C200576E5E /* UITableView+Tracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 551058072500D6C200576E5E /* UITableView+Tracker.m */; };
+		5510580B2500DD2600576E5E /* UICollectionView+Tracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5510580A2500DD2600576E5E /* UICollectionView+Tracker.m */; };
+		551058112500E38D00576E5E /* ControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 551058102500E38D00576E5E /* ControlViewController.m */; };
+		551058142500E39A00576E5E /* GestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 551058132500E39A00576E5E /* GestureViewController.m */; };
+		551058172500E3A100576E5E /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 551058162500E3A100576E5E /* TableViewController.m */; };
+		5510581A2500E3A900576E5E /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 551058192500E3A900576E5E /* CollectionViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		551057C325008EA500576E5E /* GCTrackerKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCTrackerKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		551057C625008EA500576E5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		551057C725008EA500576E5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		551057D025008EA500576E5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		551057D225008EA600576E5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		551057D525008EA600576E5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		551057D725008EA600576E5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		551057D825008EA600576E5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		551057EE25009B7C00576E5E /* GCTrackerTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCTrackerTool.h; sourceTree = "<group>"; };
+		551057EF25009B7C00576E5E /* GCTrackerTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCTrackerTool.m; sourceTree = "<group>"; };
+		551057FA2500D0D200576E5E /* UIControl+Tracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIControl+Tracker.h"; sourceTree = "<group>"; };
+		551057FB2500D0D200576E5E /* UIControl+Tracker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Tracker.m"; sourceTree = "<group>"; };
+		551057FD2500D32B00576E5E /* UIGestureRecognizer+Tracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+Tracker.h"; sourceTree = "<group>"; };
+		551057FE2500D32B00576E5E /* UIGestureRecognizer+Tracker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+Tracker.m"; sourceTree = "<group>"; };
+		551058002500D3D300576E5E /* UIGestureRecognizer+MethodName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+MethodName.h"; sourceTree = "<group>"; };
+		551058012500D3D300576E5E /* UIGestureRecognizer+MethodName.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+MethodName.m"; sourceTree = "<group>"; };
+		551058032500D59400576E5E /* UIViewController+Tracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Tracker.h"; sourceTree = "<group>"; };
+		551058042500D59400576E5E /* UIViewController+Tracker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Tracker.m"; sourceTree = "<group>"; };
+		551058062500D6C200576E5E /* UITableView+Tracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+Tracker.h"; sourceTree = "<group>"; };
+		551058072500D6C200576E5E /* UITableView+Tracker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Tracker.m"; sourceTree = "<group>"; };
+		551058092500DD2600576E5E /* UICollectionView+Tracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+Tracker.h"; sourceTree = "<group>"; };
+		5510580A2500DD2600576E5E /* UICollectionView+Tracker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+Tracker.m"; sourceTree = "<group>"; };
+		5510580F2500E38D00576E5E /* ControlViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControlViewController.h; sourceTree = "<group>"; };
+		551058102500E38D00576E5E /* ControlViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControlViewController.m; sourceTree = "<group>"; };
+		551058122500E39A00576E5E /* GestureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GestureViewController.h; sourceTree = "<group>"; };
+		551058132500E39A00576E5E /* GestureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureViewController.m; sourceTree = "<group>"; };
+		551058152500E3A100576E5E /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		551058162500E3A100576E5E /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		551058182500E3A900576E5E /* CollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		551058192500E3A900576E5E /* CollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		551057C025008EA500576E5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		551057BA25008EA500576E5E = {
+			isa = PBXGroup;
+			children = (
+				551057C525008EA500576E5E /* GCTrackerKit */,
+				551057C425008EA500576E5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		551057C425008EA500576E5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				551057C325008EA500576E5E /* GCTrackerKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		551057C525008EA500576E5E /* GCTrackerKit */ = {
+			isa = PBXGroup;
+			children = (
+				5510581B2500E66B00576E5E /* GCTracker */,
+				551057C625008EA500576E5E /* AppDelegate.h */,
+				551057C725008EA500576E5E /* AppDelegate.m */,
+				5510580F2500E38D00576E5E /* ControlViewController.h */,
+				551058102500E38D00576E5E /* ControlViewController.m */,
+				551058122500E39A00576E5E /* GestureViewController.h */,
+				551058132500E39A00576E5E /* GestureViewController.m */,
+				551058152500E3A100576E5E /* TableViewController.h */,
+				551058162500E3A100576E5E /* TableViewController.m */,
+				551058182500E3A900576E5E /* CollectionViewController.h */,
+				551058192500E3A900576E5E /* CollectionViewController.m */,
+				551057CF25008EA500576E5E /* Main.storyboard */,
+				551057D225008EA600576E5E /* Assets.xcassets */,
+				551057D425008EA600576E5E /* LaunchScreen.storyboard */,
+				551057D725008EA600576E5E /* Info.plist */,
+				551057D825008EA600576E5E /* main.m */,
+			);
+			path = GCTrackerKit;
+			sourceTree = "<group>";
+		};
+		5510581B2500E66B00576E5E /* GCTracker */ = {
+			isa = PBXGroup;
+			children = (
+				551057FA2500D0D200576E5E /* UIControl+Tracker.h */,
+				551057FB2500D0D200576E5E /* UIControl+Tracker.m */,
+				551057FD2500D32B00576E5E /* UIGestureRecognizer+Tracker.h */,
+				551057FE2500D32B00576E5E /* UIGestureRecognizer+Tracker.m */,
+				551058002500D3D300576E5E /* UIGestureRecognizer+MethodName.h */,
+				551058012500D3D300576E5E /* UIGestureRecognizer+MethodName.m */,
+				551058032500D59400576E5E /* UIViewController+Tracker.h */,
+				551058042500D59400576E5E /* UIViewController+Tracker.m */,
+				551058062500D6C200576E5E /* UITableView+Tracker.h */,
+				551058072500D6C200576E5E /* UITableView+Tracker.m */,
+				551058092500DD2600576E5E /* UICollectionView+Tracker.h */,
+				5510580A2500DD2600576E5E /* UICollectionView+Tracker.m */,
+				551057EE25009B7C00576E5E /* GCTrackerTool.h */,
+				551057EF25009B7C00576E5E /* GCTrackerTool.m */,
+			);
+			path = GCTracker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		551057C225008EA500576E5E /* GCTrackerKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 551057DC25008EA600576E5E /* Build configuration list for PBXNativeTarget "GCTrackerKit" */;
+			buildPhases = (
+				551057BF25008EA500576E5E /* Sources */,
+				551057C025008EA500576E5E /* Frameworks */,
+				551057C125008EA500576E5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GCTrackerKit;
+			productName = GCTrackerKit;
+			productReference = 551057C325008EA500576E5E /* GCTrackerKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		551057BB25008EA500576E5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = mycompany;
+				TargetAttributes = {
+					551057C225008EA500576E5E = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 551057BE25008EA500576E5E /* Build configuration list for PBXProject "GCTrackerKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 551057BA25008EA500576E5E;
+			productRefGroup = 551057C425008EA500576E5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				551057C225008EA500576E5E /* GCTrackerKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		551057C125008EA500576E5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				551057D625008EA600576E5E /* LaunchScreen.storyboard in Resources */,
+				551057D325008EA600576E5E /* Assets.xcassets in Resources */,
+				551057D125008EA500576E5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		551057BF25008EA500576E5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				551058142500E39A00576E5E /* GestureViewController.m in Sources */,
+				551057F025009B7C00576E5E /* GCTrackerTool.m in Sources */,
+				551057FF2500D32B00576E5E /* UIGestureRecognizer+Tracker.m in Sources */,
+				551058172500E3A100576E5E /* TableViewController.m in Sources */,
+				5510581A2500E3A900576E5E /* CollectionViewController.m in Sources */,
+				551058112500E38D00576E5E /* ControlViewController.m in Sources */,
+				5510580B2500DD2600576E5E /* UICollectionView+Tracker.m in Sources */,
+				551057C825008EA500576E5E /* AppDelegate.m in Sources */,
+				551057FC2500D0D200576E5E /* UIControl+Tracker.m in Sources */,
+				551057D925008EA600576E5E /* main.m in Sources */,
+				551058022500D3D300576E5E /* UIGestureRecognizer+MethodName.m in Sources */,
+				551058052500D59400576E5E /* UIViewController+Tracker.m in Sources */,
+				551058082500D6C200576E5E /* UITableView+Tracker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		551057CF25008EA500576E5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				551057D025008EA500576E5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		551057D425008EA600576E5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				551057D525008EA600576E5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		551057DA25008EA600576E5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		551057DB25008EA600576E5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		551057DD25008EA600576E5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59K5NL7VPS;
+				INFOPLIST_FILE = GCTrackerKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.geekschen.GCTrackerKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		551057DE25008EA600576E5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59K5NL7VPS;
+				INFOPLIST_FILE = GCTrackerKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.geekschen.GCTrackerKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		551057BE25008EA500576E5E /* Build configuration list for PBXProject "GCTrackerKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				551057DA25008EA600576E5E /* Debug */,
+				551057DB25008EA600576E5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		551057DC25008EA600576E5E /* Build configuration list for PBXNativeTarget "GCTrackerKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				551057DD25008EA600576E5E /* Debug */,
+				551057DE25008EA600576E5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 551057BB25008EA500576E5E /* Project object */;
+}
